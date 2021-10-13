@@ -1,5 +1,5 @@
 body {
-background-color:;
+background-color:none;
 margin:0px;
 padding:0px;
 
@@ -43,7 +43,7 @@ text-transform:uppercase;
 .logo{
 font-family:RoadTest;
 color:black;
-fontsize:22px;
+font-size:22px;
 text-transform:uppercase;
 }
 .active{
@@ -65,9 +65,8 @@ font-size:60px;
 font-family:calibri;
 font-weight:bold;
 letter-spacing:1px;
-
-color:#lalala;
-font-size:30px;
+color:#071485;
+font-size :30px;
 }
 .text-container p:nth-child(3){
 
@@ -87,7 +86,7 @@ transform:translate(-13%,-42%);
 }
 
 .text-container p{
-line height 0px;
+line-height: 0px;
 margin:45px 0px 25px
 }
 .text-container button{
@@ -243,7 +242,10 @@ border-radius:50%;
 background-color:#ffffff;
 display:flex;
 justify-content:center;
-alighn-items:center;
+align-items:center;
 font-family:calibri;
 font-weight:bold;
+flex-direction: column;
+
+
 }
