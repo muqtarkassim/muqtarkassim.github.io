@@ -249,3 +249,87 @@ flex-direction: column;
 
 
 }
+.box-2 button,
+.box-1 button,
+.box-3 button{
+width:100px;
+height:30px;
+background-color:#02854e;
+border:none;
+outline:none;
+border-radius:5px;
+
+}
+.contact-me{
+
+width:100px;
+height:280px;
+background-image:url("");
+background-size:cover;
+background-repeat:no-repeat;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+.contact-me p{
+color:antiquewhite;
+font-size:30px;
+font-weight:bold;
+border-bottom:2px solid #ffffff;
+
+}
+.contact-me button{
+    color:antiquewhite;
+    font-size:30px;
+    font-weight:bold;
+    border-bottom:2px solid #ffffff;
+    
+    }
+    footer{
+        height:300px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+
+    }
+    footer p{
+
+        font-family:calibri;
+     position:relative;
+    }
+    footer p:nth-child(1){
+
+        font-size:30px;
+        font-weight:bold;
+     color: #191919;
+     line-height:10px;
+
+    }
+    footer p:nth-child(2){
+
+        font-size:20px;
+        font-weight:bold;
+     color: #191919;
+     width:600px;
+     text-align:center;
+
+     line-height:10px;
+     
+    }
+    .social-icons{
+
+        display:flex;
+    }
+    .copyright{
+
+        color:#565555;
+        font-size:13px;
+        position:absolute;
+        left:50%;
+        bottom:10px;
+        transform:translateX(-50%);
+
+
+    }
